@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.2.0'
 
-gem 'heroku_san'
+gem 'heroku_san', group: :development
 gem 'nokogiri'
 gem 'pg'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
