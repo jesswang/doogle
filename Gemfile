@@ -8,6 +8,10 @@ gem 'pg'
 gem 'rails' #, '4.2.0'
 gem 'rails_12factor', group: :production
 gem 'capybara'
+gem 'factory_girl_rails'
+gem 'jasmine'
+gem 'webmock'
+gem 'rails-backbone', git: 'https://github.com/codebrew/backbone-rails.git', tag: 'v1.1.2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -48,7 +52,4 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
 end
