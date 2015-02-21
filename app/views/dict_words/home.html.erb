@@ -1,4 +1,11 @@
 <h1>Doogle</h1>
 <input type="text">
 <input type="button" value="Doogle Search">
-<div id="search-results"></div>
+<ul id="search-results"></ul>
+
+<script type="text/javascript">
+  $(function() {
+      window.router = new DoogleApp.Routers.WordDefRouter();
+      Backbone.history.start();
+  });
+</script>
