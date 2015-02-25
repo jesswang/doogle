@@ -20,11 +20,8 @@ use Rack::Cors do
     # headers to expose
   end
 
-  # allow all origins in development
   allow do
     origins '*'
-    resource '*',
-             :headers => :any,
-             :methods => [:get, :post, :delete, :put, :options]
+    resource '/public/*', :headers => :any, :methods => :get
   end
 end
