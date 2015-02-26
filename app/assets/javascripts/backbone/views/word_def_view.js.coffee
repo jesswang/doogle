@@ -8,9 +8,13 @@ class DoogleApp.Views.WordDefsView extends Backbone.View
 
   initialize: ->
     @render()
+    @model = new DoogleApp.Models.WordDef()
 
   render: ->
     @$el.html @template()
 
   search: ->
-    model = new DoogleApp.Models.WordDef({ word: @$el.find('input[type="search"]').val() })
+    @model.set({ word: @$el.find('input[type="search"]').val() }, { validate: true })
+    @model.fetch()
+
+
