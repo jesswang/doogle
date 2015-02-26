@@ -9,6 +9,7 @@ class DefinitionsController < ApplicationController
   end
 
   def show
-
+    debugger
+    @def = params[:word]
   end
 end

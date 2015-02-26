@@ -1,10 +1,11 @@
 class DoogleApp.Models.WordDef extends Backbone.Model
   paramRoot: 'word_def'
 
-  url: '/definitions/'
+  url: ->
+    "/definitions/#{@get('word')}"
 
   defaults:
-    word: null
+    word: ""
     defs: {}
 
   validate: (attrs, options) ->
