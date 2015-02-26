@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'dict_words/home'
+  get 'definitions/home'
 
-  root 'dict_words#home'
+  root 'definitions#home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
