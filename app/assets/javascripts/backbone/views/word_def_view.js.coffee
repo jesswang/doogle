@@ -1,5 +1,5 @@
 class DoogleApp.Views.WordDefsView extends Backbone.View
-  el: '#search-container'
+  el: 'body'
 
   events:
     "click #search-button" : "search"
@@ -16,8 +16,9 @@ class DoogleApp.Views.WordDefsView extends Backbone.View
     model = new DoogleApp.Models.WordDef({ word: @$el.find('input[type="search"]').val() })
     $.ajax
       type: "GET"
-      url: "http://dictionaryapi.com/api/v1/references/collegiate/xml/#{model.get("word")}?key=cab72891-f003-43ef-a983-253666d45082"
+      url: "http://dictionaryapi.com/api/v1/references/collegiate/xml/#{model.get("word")}"
       data:
+        key: "cab72891-f003-43ef-a983-253666d45082"
         authenticity_token: authToken()
       success: (data) =>
         alert data

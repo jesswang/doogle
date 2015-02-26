@@ -13,6 +13,7 @@ gem 'jasmine'
 gem 'webmock'
 gem 'rails-backbone', git: 'https://github.com/codebrew/backbone-rails.git', tag: 'v1.1.2'
 gem 'rack-cors', :require => 'rack/cors'
+gem 'capybara-webkit'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
