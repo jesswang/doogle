@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'definitions#home'
   get 'definitions/:word' => 'definitions#show'
+  resources :definitions
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

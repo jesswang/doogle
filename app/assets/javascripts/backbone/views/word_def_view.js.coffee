@@ -15,6 +15,8 @@ class DoogleApp.Views.WordDefsView extends Backbone.View
 
   search: ->
     @model.set({ word: @$el.find('input[type="search"]').val() }, { validate: true })
-    @model.fetch() if @model.get("word")
+    if @model.get("word")
+      @model.fetch
+        success: (model, response, options) -> debugger
 
 

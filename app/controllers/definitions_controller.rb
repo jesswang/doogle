@@ -7,8 +7,11 @@ class DefinitionsController < ApplicationController
   end
 
   def show
-    request = Faraday.new(:url => 'http://www.dictionaryapi.com/api/v1/references/collegiate/xml')
-    request.get params[:word], { :key => 'cab72891-f003-43ef-a983-253666d45082' }
+    WebMock.allow_net_connect!
+
+    request = Faraday.new.get("http://www.dictionaryapi.com/api/v1/references/collegiate/xml/#{params[:id]}?key=cab72891-f003-43ef-a983-253666d45082").body
     response = Nokogiri::XML(request)
+    defs = doc.css("def")
+    render json: {key: "value"}
   end
 end
