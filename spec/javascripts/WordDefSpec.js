@@ -1,4 +1,4 @@
-describe("WordDef model", function() {
+describe("dictionary search", function() {
   var view;
 
   beforeAll(function() {

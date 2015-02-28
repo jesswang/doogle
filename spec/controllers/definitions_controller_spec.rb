@@ -6,7 +6,6 @@ RSpec.describe DefinitionsController, type: :controller do
       get :show, :id => "kiwi"
       expect(response).to be_success
       expect(response).to have_http_status(200)
-      expect(response).to render_template("show")
     end
   end
 end
