@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150226020017) do
+ActiveRecord::Schema.define(version: 20150304003007) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "dict_words", force: :cascade do |t|
+  create_table "definitions", force: :cascade do |t|
     t.string   "word"
     t.string   "definition"
     t.datetime "created_at", null: false
