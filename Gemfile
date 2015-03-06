@@ -10,7 +10,6 @@ gem 'rails_12factor', group: :production
 gem 'capybara'
 gem 'factory_girl_rails'
 gem 'jasmine'
-gem 'webmock'
 gem 'rails-backbone', git: 'https://github.com/codebrew/backbone-rails.git', tag: 'v1.1.2'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'capybara-webkit'
@@ -53,4 +52,8 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+end
+
+group :test do
+  gem 'webmock'
 end
