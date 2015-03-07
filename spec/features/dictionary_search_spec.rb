@@ -1,4 +1,4 @@
-require "rails_helper"
+require 'rails_helper'
 
 describe "dictionary search", js: true do
   it "displays definition(s) for valid search" do
