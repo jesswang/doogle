@@ -27,6 +27,10 @@ class DefinitionsController < ApplicationController
   end
 
   def retrieveRecordFromDatabase(word: )
-    Definition.where(word: params[:id])
+    response = Array.new
+    Definition.where(word: params[:id]).each do |entry|
+      response.push entry.meaning
+    end
+    return response
   end
 end
