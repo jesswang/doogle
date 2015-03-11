@@ -45,10 +45,11 @@ RSpec.configure do |config|
   end
 
   config.before(:each) do
-    entry = FactoryGirl.create(:word_definition)
+    entry = FactoryGirl.build(:definition)
+    # change this stub_request to make the request for the word in the model
     stub_request(:get, "http://www.dictionaryapi.com/api/v1/references/collegiate/xml/kiwi?key=cab72891-f003-43ef-a983-253666d45082").
       with(:headers => {'Accept'=>'*/*', 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'User-Agent'=>'Faraday v0.9.1'}).
-      to_return(:status => 200, :body => entry.definition, :headers => {})
+      to_return(:status => 200, :body => entry.meaning, :headers => {})
   end
 
 # The settings below are suggested to provide a good initial experience
