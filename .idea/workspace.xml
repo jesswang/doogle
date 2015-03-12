@@ -19,7 +19,7 @@
     <SUITE FILE_PATH="coverage/doogle_app@_definitions_calls__makeDictionaryRequest_when_a_record_for_the_word_does_not_exist_in_the_database__doogle_app.coverage" NAME="#definitions calls #makeDictionaryRequest when a record for the word does not exist in the database: doogle_app Coverage Results" MODIFIED="1426113052311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="doogle_app" />
     <SUITE FILE_PATH="coverage/doogle_app@_show_calls__makeDictionaryRequest_when_a_record_for_the_word_does_not_exist_in_the_database__doogle_app.coverage" NAME="#show calls #makeDictionaryRequest when a record for the word does not exist in the database: doogle_app Coverage Results" MODIFIED="1426108056144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="doogle_app" />
     <SUITE FILE_PATH="coverage/doogle_app@Run_spec__dictionary_search_spec___doogle_app.coverage" NAME="Run spec 'dictionary_search_spec': doogle_app Coverage Results" MODIFIED="1426112105643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="doogle_app" />
-    <SUITE FILE_PATH="coverage/doogle_app@Run_spec__definitions_controller_spec___doogle_app.coverage" NAME="Run spec 'definitions_controller_spec': doogle_app Coverage Results" MODIFIED="1426113817250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="doogle_app" />
+    <SUITE FILE_PATH="coverage/doogle_app@Run_spec__definitions_controller_spec___doogle_app.coverage" NAME="Run spec 'definitions_controller_spec': doogle_app Coverage Results" MODIFIED="1426118888633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="doogle_app" />
     <SUITE FILE_PATH="coverage/doogle_app@dictionary_search_displays_definition_s__for_valid_search__doogle_app.coverage" NAME="dictionary search displays definition(s) for valid search: doogle_app Coverage Results" MODIFIED="1426112169483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="doogle_app" />
     <SUITE FILE_PATH="coverage/doogle_app@Run_spec__dictionary_search_request_spec___doogle_app.coverage" NAME="Run spec 'dictionary_search_request_spec': doogle_app Coverage Results" MODIFIED="1426099344023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="doogle_app" />
     <SUITE FILE_PATH="coverage/doogle_app@GET__definitions_gets_successful_response_and_renders_the_show_template__doogle_app.coverage" NAME="GET #definitions gets successful response and renders the show template: doogle_app Coverage Results" MODIFIED="1426094464689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="doogle_app" />
@@ -29,7 +29,8 @@
     <SUITE FILE_PATH="coverage/doogle_app@GET__definitions_gets_successful_response__doogle_app.coverage" NAME="GET #definitions gets successful response: doogle_app Coverage Results" MODIFIED="1426106984200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="doogle_app" />
     <SUITE FILE_PATH="coverage/doogle_app@Run_spec__dict_search_spec___doogle_app.coverage" NAME="Run spec 'dict_search_spec': doogle_app Coverage Results" MODIFIED="1424914863210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="doogle_app" />
     <SUITE FILE_PATH="coverage/doogle_app@_show__doogle_app.coverage" NAME="#show: doogle_app Coverage Results" MODIFIED="1426108113769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="doogle_app" />
-    <SUITE FILE_PATH="coverage/doogle_app@definitions_controller.coverage" NAME="definitions_controller Coverage Results" MODIFIED="1426112556502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="doogle_app" />
+    <SUITE FILE_PATH="coverage/doogle_app@_definitions_calls__makeDictionaryApiRequest_when_the_word_is_not_in_the_database__doogle_app.coverage" NAME="#definitions calls #makeDictionaryApiRequest when the word is not in the database: doogle_app Coverage Results" MODIFIED="1426118154686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="doogle_app" />
+    <SUITE FILE_PATH="coverage/doogle_app@definitions_controller.coverage" NAME="definitions_controller Coverage Results" MODIFIED="1426117656923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="doogle_app" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -106,18 +107,8 @@
       <file leaf-file-name="definitions_controller_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/controllers/definitions_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="environment.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environment.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="198">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,8 +127,8 @@
       <file leaf-file-name="definitions_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/definitions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53892213" vertical-offset="0" max-vertical-offset="835">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.5898305" vertical-offset="0" max-vertical-offset="885">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -163,6 +154,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="spec_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="1890">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="GeneratorOptions">
@@ -179,7 +180,6 @@
         <option value="$PROJECT_DIR$/app/views/search/home.html.erb" />
         <option value="$PROJECT_DIR$/spec/requests/dict_words_spec.rb" />
         <option value="$PROJECT_DIR$/spec/javascripts/jasmine_examples/PlayerSpec.js" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/spec/models/dict_word_spec.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/search.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/doogle_app.js.coffee" />
@@ -219,9 +219,10 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/views/word_def_list_view.js.coffee" />
         <option value="$PROJECT_DIR$/db/migrate/20150311203200_add_index_to_word_column.rb" />
         <option value="$PROJECT_DIR$/spec/features/dictionary_search_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/definitions_controller.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/definitions_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/controllers/definitions_controller.rb" />
       </list>
     </option>
   </component>
@@ -504,7 +505,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ubuntu-instantink-bootstrap" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistoryKey" value="doogle_app&#9;FILE&#9;file:///home/inigo/workspace/jessica/doogle_app/app/assets/javascripts/backbone/doogle_app.js.coffee" />
@@ -512,7 +513,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="RSpec.#definitions calls #retrieveRecordFromDatabase when a record for the word exists in the database: doogle_app">
+  <component name="RunManager" selected="RSpec.Run spec 'definitions_controller_spec': doogle_app">
     <configuration default="false" name="Run spec 'definitions_controller_spec': doogle_app" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="doogle_app" />
@@ -624,7 +625,29 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="dictionary search displays definition(s) for valid search: doogle_app" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="definitions_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="doogle_app" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/controllers" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/controllers/definitions_controller.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="#definitions calls #makeDictionaryApiRequest when the word is not in the database: doogle_app" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="doogle_app" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -645,10 +668,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/dictionary_search_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/definitions_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="dictionary search displays definition(s) for valid search" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="#definitions calls #makeDictionaryApiRequest when the word is not in the database" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -657,28 +680,6 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="definitions_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="doogle_app" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/controllers" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/controllers/definitions_controller.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -832,16 +833,16 @@
       <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'definitions_controller_spec': doogle_app" />
       <item index="5" class="java.lang.String" itemvalue="RSpec.#definitions calls #retrieveRecordFromDatabase when a record for the word exists in the database: doogle_app" />
       <item index="6" class="java.lang.String" itemvalue="RSpec.#definitions calls #makeDictionaryRequest when a record for the word does not exist in the database: doogle_app" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.dictionary search displays definition(s) for valid search: doogle_app" />
-      <item index="8" class="java.lang.String" itemvalue="Ruby.definitions_controller" />
+      <item index="7" class="java.lang.String" itemvalue="Ruby.definitions_controller" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.#definitions calls #makeDictionaryApiRequest when the word is not in the database: doogle_app" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.#definitions calls #retrieveRecordFromDatabase when a record for the word exists in the database: doogle_app" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'definitions_controller_spec': doogle_app" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.#definitions calls #makeDictionaryRequest when a record for the word does not exist in the database: doogle_app" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.definitions_controller" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.dictionary search displays definition(s) for valid search: doogle_app" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'definitions_controller_spec': doogle_app" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.#definitions calls #makeDictionaryApiRequest when the word is not in the database: doogle_app" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.definitions_controller" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.#definitions calls #retrieveRecordFromDatabase when a record for the word exists in the database: doogle_app" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.#definitions calls #makeDictionaryRequest when a record for the word does not exist in the database: doogle_app" />
       </list>
     </recent_temporary>
   </component>
@@ -868,9 +869,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24989791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20151134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20151134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275862" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882273" sideWeight="0.50020415" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -963,13 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="840">
           <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7562327" vertical-offset="0" max-vertical-offset="722">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1068,14 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30712166" vertical-offset="0" max-vertical-offset="1348">
           <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1272,14 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76976746" vertical-offset="256" max-vertical-offset="1890">
-          <caret line="51" column="54" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="360">
@@ -1288,18 +1266,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="1890">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42093542" vertical-offset="0" max-vertical-offset="898">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08017817" vertical-offset="0" max-vertical-offset="898">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/definitions_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/definitions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53892213" vertical-offset="0" max-vertical-offset="835">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.5898305" vertical-offset="0" max-vertical-offset="885">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding />
         </state>
       </provider>
