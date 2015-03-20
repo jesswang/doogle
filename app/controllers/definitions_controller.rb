@@ -1,6 +1,3 @@
-require 'open-uri'
-require 'nokogiri'
-
 class DefinitionsController < ApplicationController
 
   def home
@@ -8,8 +5,10 @@ class DefinitionsController < ApplicationController
 
   def show
     # Show definitions from the database if record(s) exist(s), otherwise call API
-    if Definition.exists?(word: params[:id])
-      response = retrieveRecordFromDatabase(word: params[:id])
+    definitions = Definition.where(word: params[:id]).pluck(:meaning)
+    if definitions
+      puts "here"
+      response = definitions
     else
       response = makeDictionaryApiRequest(word: params[:id])
     end
@@ -29,14 +28,6 @@ class DefinitionsController < ApplicationController
 
       # save to DB
       Definition.create(word: word, meaning: meaning)
-    end
-    return response
-  end
-
-  def retrieveRecordFromDatabase(word: )
-    response = Array.new
-    Definition.where(word: params[:id]).each do |entry|
-      response.push entry.meaning
     end
     return response
   end
