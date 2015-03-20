@@ -14,6 +14,7 @@ gem 'rails-backbone', git: 'https://github.com/codebrew/backbone-rails.git', tag
 gem 'rack-cors', :require => 'rack/cors'
 gem 'capybara-webkit'
 gem 'faraday'
+gem 'rails_admin'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
