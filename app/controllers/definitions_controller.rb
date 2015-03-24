@@ -6,8 +6,7 @@ class DefinitionsController < ApplicationController
   def show
     # Show definitions from the database if record(s) exist(s), otherwise call API
     definitions = Definition.where(word: params[:id]).pluck(:meaning)
-    if definitions
-      puts "here"
+    if definitions.length > 0
       response = definitions
     else
       response = makeDictionaryApiRequest(word: params[:id])
@@ -29,6 +28,6 @@ class DefinitionsController < ApplicationController
       # save to DB
       Definition.create(word: word, meaning: meaning)
     end
-    return response
+    response
   end
 end

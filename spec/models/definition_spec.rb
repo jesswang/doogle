@@ -1,9 +1,19 @@
 require 'rails_helper'
 
 RSpec.describe Definition, type: :model do
+  let!(:definition) { Definition.create!(word: "Cat", meaning: "a carnivorous mammal") }
+
   it "saves words as lower-case" do
-    dictionary_entry = Definition.create!(word: "Cat", meaning: "a feline creature")
-    dictionary_entry.save!
-    expect(dictionary_entry.word).to eq "cat"
+    expect(definition.word).to eq "cat"
+  end
+
+  it "does not save the definition if the word value is missing" do
+    definition.word = nil
+    expect(definition).to_not be_valid
+  end
+
+  it "does not save the definition if the meaning value is missing" do
+    definition.meaning = nil
+    expect(definition).to_not be_valid
   end
 end
