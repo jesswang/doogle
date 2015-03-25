@@ -16,5 +16,5 @@
 //= require backbone
 //= require backbone_rails_sync
 //= require backbone_datalink
-//= require backbone/doogle_app
+//= require backbone/doogleApp.js.coffee
 //= require_tree .

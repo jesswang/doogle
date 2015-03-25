@@ -9,12 +9,12 @@ class DefinitionsController < ApplicationController
     if definitions.length > 0
       response = definitions
     else
-      response = makeDictionaryApiRequest(word: params[:id])
+      response = make_dictionary_api_request(word: params[:id])
     end
     render json: {definitions: response}
   end
 
-  def makeDictionaryApiRequest(word: )
+  def make_dictionary_api_request(word: )
     response = Array.new
     key = "cab72891-f003-43ef-a983-253666d45082"
     request = Faraday.new.get("http://www.dictionaryapi.com/api/v1/references/collegiate/xml/#{word}?key=#{key}").body
